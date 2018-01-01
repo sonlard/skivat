@@ -1,0 +1,157 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.30
+* STEP-1 START @ 06:21:54
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.1.11 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11
+DOC ROOT:	C:/xampp/htdocs/skivat
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/skivat/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20171228_skivatthewpjournalcom_823a784b7ae00fdd8820171228181955_archive.zip
+SIZE:	36.7MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4005
+    [filename] => C:\xampp\htdocs\skivat\20171228_skivatthewpjournalcom_823a784b7ae00fdd8820171228181955_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2017-12-28 18:22:19
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.171228182219.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 06:22:19 - RUNTIME: 25.1945 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 06:23:03
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.28 -- Build Server: 5.5.58
+FILE SIZE:	database.sql (1015.71KB) - installer-data.sql (1015.71KB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/skivat/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	0
+QUERIES RAN:	133
+
+wp_commentmeta: (0)
+wp_comments: (2)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (168)
+wp_postmeta: (8)
+wp_posts: (7)
+wp_term_relationships: (2)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (17)
+wp_users: (1)
+
+Removed '31' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 3.7572 sec.
+STEP-2 COMPLETE @ 06:23:07 - RUNTIME: 3.7746 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 06:23:49
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (2)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (136)
+wp_postmeta~ (8)
+wp_posts~ (7)
+wp_term_relationships~ (2)
+wp_term_taxonomy~ (1)
+wp_termmeta^ (0)
+wp_terms~ (1)
+wp_usermeta~ (17)
+wp_users~ (1)
+--------------------------------------
+Search1:	'/home/136630.cloudwaysapps.com/cubvpgswsj/public_html' 
+Change1:	'C:/xampp/htdocs/skivat' 
+Search2:	'\/home\/136630.cloudwaysapps.com\/cubvpgswsj\/public_html' 
+Change2:	'C:\/xampp\/htdocs\/skivat' 
+Search3:	'%2Fhome%2F136630.cloudwaysapps.com%2Fcubvpgswsj%2Fpublic_html%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Fskivat%2F' 
+Search4:	'\home\136630.cloudwaysapps.com\cubvpgswsj\public_html' 
+Change4:	'C:/xampp/htdocs/skivat' 
+Search5:	'//skivat.thewpjournal.com' 
+Change5:	'//localhost/skivat' 
+Search6:	'\/\/skivat.thewpjournal.com' 
+Change6:	'\/\/localhost\/skivat' 
+Search7:	'%2F%2Fskivat.thewpjournal.com' 
+Change7:	'%2F%2Flocalhost%2Fskivat' 
+SCANNED:	Tables:13 	|	 Rows:175 	|	 Cells:862 
+UPDATED:	Tables:1 	|	 Rows:9 	|	 Cells:10 
+ERRORS:		0 
+RUNTIME:	0.307600 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+NEW WP-ADMIN USER: New username 'sonlard' was created successfully 
+ 
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 06:23:50 - RUNTIME: 0.7671 sec.
+
+
